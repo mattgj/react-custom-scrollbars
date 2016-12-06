@@ -509,6 +509,10 @@ export default createClass({
         callback(values);
     },
 
+    updateScrollbarWidth() {
+        getScrollbarWidth(true);
+    },
+
     render() {
         const scrollbarWidth = getScrollbarWidth();
         /* eslint-disable no-unused-vars */
